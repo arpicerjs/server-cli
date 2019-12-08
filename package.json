@@ -1,0 +1,27 @@
+{
+  "name": "@ngasemjs/server-cli",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ngasem": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngasemjs/server-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngasemjs/server-cli/issues"
+  },
+  "homepage": "https://github.com/ngasemjs/server-cli#readme",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "gittar": "^0.1.1"
+  }
+}
