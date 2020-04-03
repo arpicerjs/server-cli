@@ -11,8 +11,8 @@ app
   .version(package.version);
 
 app
-  .command('new <app_name>')
-  .description('create new app with name as given app_name')
+  .command('new <name>')
+  .description('create new app')
   .action(actions.new);
 
 app
