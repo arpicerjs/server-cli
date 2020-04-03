@@ -1,7 +1,7 @@
 {
   "name": "@ngasemjs/server-cli",
   "version": "0.0.3",
-  "description": "",
+  "description": "CLI tools for NgasemJS",
   "main": "index.js",
   "bin": {
     "ngasem": "./index.js"
@@ -13,9 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/ngasemjs/server-cli.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "rpc",
+    "ngasemjs"
+  ],
+  "author": "Hadi Hidayat Hammurabi <hadihammurabi@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ngasemjs/server-cli/issues"
   },
