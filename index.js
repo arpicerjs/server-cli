@@ -16,6 +16,11 @@ app
   .action(actions.new);
 
 app
+  .command('create <name> <template_url>')
+  .description('create app from template')
+  .action(actions.fromtemplate);
+
+app
   .on('--help', function(){
     console.log('')
     console.log('Examples:');
